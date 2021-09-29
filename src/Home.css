@@ -1,0 +1,24 @@
+.home{
+    /* display: flex;
+    justify-content: center; */
+    /* position: relative; */
+}
+.home-contaier{
+    height: 500px;
+    width: 100%;
+}
+.home--img{
+    width: 100%;
+    z-index: -1;
+    margin-bottom: -300px;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+.home--row{
+    /* position: absolute;
+    top: 45%; */
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 1;
+    
+}

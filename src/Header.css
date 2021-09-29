@@ -60,3 +60,10 @@ display: flex;
 .header__BasketCount{
 margin: 0px 5px;
 }
+.location{
+    display: flex;
+    align-items: center;
+}
+.header__location{
+
+}
