@@ -3,12 +3,15 @@ import './Header.css';
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
+import { Link } from 'react-router-dom'
 
 function Header() {
     return (
         <div className='header'>
+            <Link to="/">
             <img className="header__logo" src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="Logo" />
-
+            </Link>
+            
             <div className="location">
             <LocationOnOutlinedIcon className="header__location" ></LocationOnOutlinedIcon>
             <div className="header__option">
@@ -36,10 +39,13 @@ function Header() {
                     <span className="header__optionLineTwo">Prime</span>
                 </div>
             </div>
+
+            <Link to="/checkout">
             <div className="header__optionBasket">
                 <ShoppingCartIcon />
                 <span className="header__optionLineTwo header__BasketCount" >0</span>
             </div>
+            </Link>
 
         </div>
     )
