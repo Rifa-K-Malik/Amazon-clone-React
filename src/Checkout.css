@@ -1,12 +1,24 @@
-/* .checkout{
+.checkout{
+    background-color: bisque;
     display: flex;
-    background-color: white;
     height: max-content;
     padding: 20px;
 }
 
+.checkout--left{
+    background-color: white;
+}
+
+.checkout--adv{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
 .checkout--title{
-    border-bottom: 1px solid gray;
     padding: 10px;
-    margin-right: 40px;
-} */
+    border-bottom: 1px solid black;
+}
+
+.checkout--right{
+    margin: 0px 10px;
+}
