@@ -55,6 +55,7 @@ display: flex;
 .header__optionBasket{
     display: flex;
     align-items: center;
+    color: white;
 }
 
 .header__BasketCount{
