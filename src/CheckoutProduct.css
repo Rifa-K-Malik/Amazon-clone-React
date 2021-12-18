@@ -35,3 +35,8 @@ padding: 0px 20px;
     border-color: black;
     font-weight: bold;
 }
+.checkoutProduct--button:hover{
+    background-color: white;
+    color: black;
+
+}

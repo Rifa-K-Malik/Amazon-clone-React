@@ -17,6 +17,10 @@
 .product--info{
 object-fit: contain;
 }
+.product:hover{
+    transform: translate(0px , -20px);
+    cursor: pointer;
+}
 .product--price{
 margin-top: 5px;
 }
@@ -36,4 +40,7 @@ margin-top: 5px;
     padding: 8px 50px;
     border-color: white;
 
+}
+.product--button:hover{
+    border: 1px solid black;
 }
