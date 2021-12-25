@@ -44,6 +44,9 @@ display: flex;
     display: flex;
     flex-direction: column;
     padding: 0 10px;
+    color: white;
+    text-decoration: none;
+
 }
 .header__optionLineOne{
     font-size: 12px;
