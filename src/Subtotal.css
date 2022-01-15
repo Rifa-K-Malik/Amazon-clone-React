@@ -34,7 +34,7 @@
 
 @media (max-width: 844px) { 
     .subtotal{
-        position: sticky;
-        top: 60px;
+min-width: 100px;
+max-width: 100%;
     }
  }
