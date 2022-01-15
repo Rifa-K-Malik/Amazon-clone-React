@@ -26,3 +26,13 @@ h3{
 .checkout--right{
     margin: 0px 10px;
 }
+
+@media (max-width: 844px) { 
+    .checkout{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .checkout--right{
+        margin: 0px 10px 20px 10px;
+    }
+ }

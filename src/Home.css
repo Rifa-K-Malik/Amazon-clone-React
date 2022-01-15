@@ -17,9 +17,15 @@
     flex-wrap: wrap;
 }
 
-
-@media (max-width: 936px) { 
+@media (max-width: 1304px) { 
     .home--img{
-        display: none;
+        margin-bottom: -200px;
+    }
+ }
+@media (max-width: 612px) { 
+    .home--img{
+        height: 300px;
+        margin-bottom: -200px;
+
     }
  }
