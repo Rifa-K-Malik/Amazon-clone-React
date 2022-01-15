@@ -27,3 +27,13 @@ li{
     float: left;
     margin-right: 15px;
 }
+
+@media (max-width: 850px) { 
+
+    .ulli{
+        display: none;
+    }
+    .imgimg{
+        width: 250px;
+    }
+ }

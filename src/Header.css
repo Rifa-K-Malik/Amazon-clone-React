@@ -71,3 +71,13 @@ margin: 0px 5px;
 .header__location{
 
 }
+
+
+@media (max-width: 650px) { 
+    .location{
+        display: none;
+    }
+    .d-hide{
+        display: none;
+    }
+ }

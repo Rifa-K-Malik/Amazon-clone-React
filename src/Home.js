@@ -21,7 +21,7 @@ function Home() {
                         price={764.00}
                         image="https://m.media-amazon.com/images/I/41jcU99HNHL.jpg"
                     />
-                   <Product
+                    <Product
                         id="06"
                         title="IDROHARI Woman Trending Stylish Fancy and Comfort Heel Fashion Sandal"
                         price={369.00}
@@ -33,17 +33,13 @@ function Home() {
                         price={945.00}
                         image="https://m.media-amazon.com/images/I/6182MDFp2yL._UL1500_.jpg"
                     />
-
-                </div>
-
-                <div className="home--row" >
-                <Product
+                    <Product
                         id="06"
                         title="IDROHARI Woman Trending Stylish Fancy and Comfort Heel Fashion Sandal"
                         price={369.00}
                         image="https://m.media-amazon.com/images/I/31up6C753CL.jpg"
                     />
-                                    <Product
+                    <Product
                         id="07"
                         title="Infinix Hot 10 Play"
                         price={8999.00}
@@ -61,10 +57,7 @@ function Home() {
                         price={764.00}
                         image="https://m.media-amazon.com/images/I/41jcU99HNHL.jpg"
                     />
-                </div>
-
-                                <div className="home--row" >
-                <Product
+                    <Product
                         id="10"
                         title="Infinix Hot 10 Play"
                         price={8999.00}
@@ -76,7 +69,7 @@ function Home() {
                         price={88990.00}
                         image="https://m.media-amazon.com/images/I/71umlOrdukL._SX679_.jpg"
                     />
-                     <Product
+                    <Product
                         id="12"
                         title="See U in C by Ali Karim Sayed (Author)"
                         price={4424.56}
@@ -89,7 +82,6 @@ function Home() {
                         image="https://m.media-amazon.com/images/I/41jcU99HNHL.jpg"
                     />
                 </div>
-
             </div>
 
         </div>

@@ -25,7 +25,7 @@ function Subhdr() {
                 </div>
             </div>
             <div>
-                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/JupiterT1/SWM_1day._CB639891554_.jpg" alt="img" />
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/JupiterT1/SWM_1day._CB639891554_.jpg" alt="img" className="imgimg" />
 
             </div>
         </div>

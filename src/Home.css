@@ -1,8 +1,4 @@
-.home{
-    /* display: flex;
-    justify-content: center; */
-    /* position: relative; */
-}
+
 .home-contaier{
     height: 500px;
     width: 100%;
@@ -15,10 +11,15 @@
 }
 
 .home--row{
-    /* position: absolute;
-    top: 45%; */
     display: flex;
     justify-content: space-evenly;
     z-index: 1;
-    
+    flex-wrap: wrap;
 }
+
+
+@media (max-width: 936px) { 
+    .home--img{
+        display: none;
+    }
+ }
