@@ -81,3 +81,11 @@ margin: 0px 5px;
         display: none;
     }
  }
+ @media (max-width: 450px) { 
+    .header__logo{
+        width: 60px;
+        margin: 0px 20px;
+        margin-top: 18px;
+        object-fit: contain;
+        }
+ }
