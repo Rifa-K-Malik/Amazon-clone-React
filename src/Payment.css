@@ -1,0 +1,42 @@
+.payment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 5px;
+}
+.payment-container {
+    max-width: 500px;
+    min-width: 100px;
+}
+.payment-section {
+    margin-bottom: 10px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+.mr {
+    padding-left: 10px;
+}
+.payment-title {
+    margin-bottom: 10px;
+}
+
+.payment-address,
+.payment-items,
+.payment-detail {
+    margin-left: 10px;
+}
+.mt-2 {
+    margin: 10px 0px;
+}
+
+.buynow {
+    border: 2px solid gray;
+    padding: 5px 30px;
+    border-radius: 5px;
+    width: 100%;
+}
+.buynow:hover {
+    color: rgb(133, 35, 35);
+    font-weight: bold;
+    border: 2px solid rgb(133, 35, 35);
+}
